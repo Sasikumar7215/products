@@ -1,0 +1,114 @@
+body{
+  background-color: white
+}
+.nav-color{
+  background-color: rgb(202, 176, 176);
+  margin-bottom: 10px;
+}
+
+.my-cart{
+  padding: 10px 100px 0px;
+  font-family:"Poppins";
+  font-size: 1.6rem;
+  color: rgb(57, 57, 250);
+  font-weight: bold;
+}
+input[type="search"] {
+  border: none;
+  background-color: aliceblue;
+  margin-top: 7px;
+  margin-right: 50px;
+  width: 500px;
+  height: 10px;
+  font-size: 14px;
+  color: inherit;
+  border-radius: 50px;
+  background-image: url('https://img.icons8.com/?size=100&id=132&format=png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 10px; 
+   padding: 20px 20px 20px 70px;
+   background-color: #f8f8ea;
+}
+@media only screen and (max-width: 600px) {
+  input[type="search"] {
+    border: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 300px;
+    height: 10px;
+    font-size: 14px;
+    color: inherit;
+    border-radius: 50px;
+    background-image: url('https://img.icons8.com/?size=100&id=132&format=png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 10px; 
+     padding: 20px 20px 20px 70px;
+     background-color: #f8f8ea;
+  }
+}
+input[type="search"]::placeholder{
+  color: rgb(189, 212, 231);
+}
+.dropdown-top{
+  padding-top: 10px;
+} 
+.cart-style{
+  display: flex;
+  padding-top: 20px;
+  font-size:18px;
+}
+.product-image{
+  height: 300px;
+  width: 300px;
+}
+.product-margin{
+  margin-top: 20px;
+}
+.loading-style{
+  position: fixed;
+  left:0px;
+  top:0px;
+  margin: auto;
+  width: 100%;
+  height:100%;
+  z-index: 9999;
+  background: url('https://loading.io/assets/mod/spinner/spinner/lg.gif')
+                50% 50% no-repeat;
+}
+.button{
+  padding: 8px 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffff;
+  background-color:rgb(57, 57, 250); 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+.button:hover{
+  zoom: 1;
+
+}
+.button:active{
+  background-color: #999;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.badge::after{
+  background-color: rgb(57, 57, 250);
+  border-radius: 50%;
+  position: relative;
+  padding: 3px;
+}
+.emptyCart{
+  text-align: center;
+  color: lightblue;
+}
+.cartTitle{
+  text-align: center;
+}
