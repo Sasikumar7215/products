@@ -3,7 +3,6 @@
 import { Dropdown } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from "react-router-dom";
-// import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { useProduct } from "./productContext";
 const Navbar = () => {
@@ -15,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="container">
       <div className="row">
-        <div role="button"  className="col-md-2 my-cart">MyCart</div>
+        <div className="col-md-2 my-cart">MyCart</div>
         <div className="col-md-6">
           <input type="search" placeholder="...Search"></input>
         </div>

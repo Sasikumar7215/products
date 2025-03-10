@@ -22,7 +22,7 @@ const Products = () => {
           <div className="col-md-3" key={item.id}>
             <img className="product-image" src={item.images} alt=""></img>
             <h6>{item.title}</h6>
-            <h6>Price:Rs{item.price}</h6>
+            <h6>Price:${item.price}</h6>
             <button className="button" onClick={()=>handleNavigation(item)}>AddCart</button>
           </div>
         ))
