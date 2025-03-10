@@ -52,7 +52,6 @@ const AddCart = () => {
   </div>
       ) : (
         <>
-          <img src="../images/image1.jpg" alt="empty cart" />
           <h4 className="emptyCart">No products in the cart</h4>
         </>
       )}
